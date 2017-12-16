@@ -57,8 +57,8 @@ World::World(Console& console)
 
 void World::handleKeyboard(sf::Keyboard::Key key)
 {
-	if (playerActor->hasFlag(Actor::NoCommand))
-		return;
+	// if (playerActor->hasFlag(Actor::NoCommand))
+		// return;
 
 	switch (key)
 	{

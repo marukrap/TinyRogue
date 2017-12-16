@@ -260,8 +260,8 @@ void Inventory::drawAfter()
 	int left = 21;
 	int top = items.size() >= 23 ? 0 : 1;
 
-	if (height == 0)
-		height = 1;
+	if (height <= 2)
+		height = 3;
 	else if (selected < 0)
 		selected = 0;
 

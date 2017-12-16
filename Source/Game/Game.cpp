@@ -42,7 +42,7 @@ Game::Game()
 	unsigned int height = static_cast<unsigned int>(size.y * tileSize.y) + bottomMargin;
 	std::cout << "Window Size: " << width << " x " << height << '\n';
 
-	initializeWindow(sf::VideoMode(width, height), sf::Style::None);
+	initializeWindow(sf::VideoMode(width, height), sf::Style::Close);
 
 	renderTexture.create(width, height);
 

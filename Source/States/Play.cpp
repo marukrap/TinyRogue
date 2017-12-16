@@ -15,6 +15,9 @@ void Play::handleKeyboard(sf::Keyboard::Key key)
 {
 	ActorPlayer& actor = world.getPlayerActor();
 
+	if (actor.hasFlag(Actor::NoCommand))
+		return;
+
 	switch (key)
 	{
 	case sf::Keyboard::F1:
