@@ -11,4 +11,4 @@ The theme was **throwback**.
 * https://underww.itch.io/tiny-rogue
 
 # Contact
-* Discord: https://discord.gg/dggjPVB
+* Discord: https://discord.gg/RhH3vyn
