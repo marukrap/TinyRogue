@@ -9,6 +9,3 @@ The theme was **throwback**.
 
 # Builds (Windows)
 * https://underww.itch.io/tiny-rogue
-
-# Contact
-* Discord: https://discord.gg/RhH3vyn
